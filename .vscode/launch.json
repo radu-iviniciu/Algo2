@@ -1,6 +1,20 @@
 {
     "version": "0.2.0",
     "configurations": [
+                        {
+            "name": "sack",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "pythonPath": "${config.python.pythonPath}",
+            "program": "${workspaceRoot}\\week4\\knapsack.py",
+            "cwd": "${workspaceRoot}",
+            "debugOptions": [
+                "WaitOnAbnormalExit",
+                "WaitOnNormalExit",
+                "RedirectOutput"
+            ]
+        },
                 {
             "name": "mwis",
             "type": "python",
